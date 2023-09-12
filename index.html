@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,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">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/logo.png" alt="My Logo">
+            </div>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#skill"><i class="fas fa-cogs"></i> Skills</a></li>
+                <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home">
+            <div class="item2">
+                <p>Hello, I am</p>
+                <h1>Anish Kanti Ghorai</h1>
+                <p>An Aspiring Web Developer and AI-ML Enthusiastic</p>
+                <div class="item3">
+                    <p><a href="assets/Resume-Anish.pdf" target="_blank">View Resume</a></p>
+                </div>
+            </div>
+            <div class="item1"><img src="assets/BG/profile.jpg" alt=""></div>
+        </div>
+    </section>
+
+    <section id="about" class="fade-section">
+        <div class="intro">
+            <P style="font-size: 20px;">GET TO KNOW MORE</P>
+            <h1> ABOUT ME</h1>
+            <div class="introbox">
+                <p>I'm Anish Kanti Ghorai, a dedicated web developer with a burning passion for creating exceptional 
+                    online experiences. From crafting my first lines of HTML as a teenager to designing complex web 
+                    applications today, my journey in web development has been a thrilling adventure. My goal is to 
+                    build websites that not only look stunning but also function flawlessly, ensuring users have a 
+                    seamless and enjoyable interaction. Over the years, I've honed my skills in HTML, CSS, JavaScript, 
+                    and various frameworks to stay at the forefront of web technology.
+                    <br> </br>
+                    Beyond web development, I'm deeply fascinated by the world of Artificial Intelligence and Machine 
+                    Learning. These cutting-edge technologies have the potential to revolutionize industries and make 
+                    our lives more efficient. I've immersed myself in understanding AI algorithms, exploring deep learning 
+                    models, and applying data science techniques to solve real-world problems. It's an exciting journey that 
+                    fuels my curiosity and drives me to push the boundaries of what's possible.
+                    <br> </br>
+                    When I'm not coding or exploring the intricacies of AI/ML, you'll find me engaged in a vibrant tech community,
+                     attending meetups, and collaborating on open-source projects. I believe in the power of knowledge sharing and 
+                     regularly contribute to online forums and blogs to help others on their learning paths. Join me on this exciting 
+                     journey, where creativity, innovation, and a relentless pursuit of excellence are the guiding principles. Together, 
+                     we can harness the immense potential of the digital world and make a meaningful impact.
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skill" class="fade-section">
+        <p style="font-size: 20px;">Explore My</p>
+        <h1>SKILLS</h1>
+        <div class="board">
+            <div class="skillbox">
+                <div class="image">
+                    <div class="img"><img src="assets/skills_img/web_dev.png" alt="image"></div>
+                    <h2>Web Development</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skillbox">
+                <div class="image">
+                    <div class="img"><img src="assets/skills_img/programming.jpg" alt="image"></div>
+                    <h2>Programming</h2>
+                    <ul>
+                        <li>PYTHON</li>
+                        <li>C</li>
+                        <li>JAVA</li>
+                        <li>MATLAB</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section fade-section " >
+        <p style="font-size: 20px;">Browse My</p>
+        <h1>PROJECTS</h1>
+        <br>
+        <div class="portfolio-item">
+            <div class="skillbox">
+                <div class="image">
+                    <div class="img"><a href="https://ghostrider1122.github.io/Landing_Page_Demo/" target="_blank"><img src="assets/project_img/project1.png" alt="image"></a></div>
+                    <h2>Landing Page</h2>
+                </div>
+            </div>
+
+            <div class="skillbox">
+                <div class="image">
+                    <div class="img"><a href="https://ghostrider1122.github.io/Calculator-Web-App/" target="_blank"><img src="assets/project_img/project2.png" alt="image"></a></div>
+                    <h2>Calculator</h2>
+                </div>
+            </div>
+
+        </div>
+        
+    </section>
+
+    <section id="contact" class="section-item">
+        <div id="contact-section" class="contact-info">
+            <h2>Contact Me</h2>
+            <p>You can reach me at:</p>
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto: ghoraianish2@gmail.com">ghoraianish2@gmail.com</a></p>
+            <p><i class="fas fa-phone"></i> Phone: +123-456-7890</p>
+
+        </div>
+
+        <div class="social-media">
+            <h3>Social Media</h3>
+            <br>
+            <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/anish-ghorai-089ab821a/" target="_blank">My LinkedIn Profile</a></p>
+            <br>
+            <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/GhostRider1122" target="_blank">My GitHub Profile</a></p>
+        </div>
+        
+        <div class="feedback-form">
+            <h3>Feedback</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name here">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email address here">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Enter your message here"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </section>
+    
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2023 AKG Site. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        
+        $(document).ready(function() {
+            $(window).scroll(function() {
+                $(".fade-section").each(function() {
+                    var sectionTop = $(this).offset().top;
+                    var sectionBottom = sectionTop + $(this).outerHeight();
+                    var windowTop = $(window).scrollTop();
+
+                    if (windowTop >= sectionTop - 100 && windowTop <= sectionBottom) {
+                        $(this).css({"opacity": "1", "transform": "translateY(0)"});
+                    } else {
+                        $(this).css({"opacity": "0", "transform": "translateY(20px)"});
+                    }
+                });
+            });
+        });
+
+        if (performance.navigation.type === 1) {
+            // Scroll to the top immediately after a refresh
+            window.scrollTo(0, 0);
+        }
+    </script>
+
+</body>
+</html>
